@@ -26,3 +26,4 @@
 (setq-default indent-tabs-mode nil)
 (setq tab-width 4)
 (setq js-indent-level 4)
+(add-to-list 'auto-mode-alist '("\\.ps1\\'" . powershell-mode))
