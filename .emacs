@@ -27,3 +27,9 @@
 (setq tab-width 4)
 (setq js-indent-level 4)
 (add-to-list 'auto-mode-alist '("\\.ps1\\'" . powershell-mode))
+(setq backup-directory-alist
+      `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
+(add-to-list 'auto-mode-alist '("\\.tsx\\'" . typescript-mode))
