@@ -25,8 +25,9 @@
  )
 (setq-default indent-tabs-mode nil)
 (setq tab-width 4)
-(setq js-indent-level 4)
-(add-to-list 'auto-mode-alist '("\\.ps1\\'" . powershell-mode))
+(setq js-indent-level 2)
+(setq typescript-indent-level 2)
+(setq css-indent-offset 2)
 (setq backup-directory-alist
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms

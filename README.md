@@ -8,12 +8,13 @@ Steps to install
 Steps to set up
 
 - copy `.emacs` into your home directory, as a file named `.emacs`.
-- open Emacs. Run these commands to install two `el-get` libraries:
+- open Emacs. Run these commands to install these `el-get` libraries:
 
 ```
 M-x el-get-install <RET> yafolding <RET>
 M-x el-get-install <RET> auto-complete <RET>
 M-x el-get-install <RET> typescript-mode <RET>
+M-x el-get-install <RET> rjsx-mode <RET>
 ```
 
 - open SeitiZenitaniDotEmacs in emacs. Run `M-x byte-compile-file`, and select this file when prompted. This will generate the file `SeijiZenitaniDotEmacs.elc`. Move this file to the directory ~/lib/emacs (create it if it doesn't already exist).
